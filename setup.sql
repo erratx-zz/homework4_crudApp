@@ -1,7 +1,5 @@
 #!/bin/bash
 
-DROP DATABASE CS3320;
-
 create database CS3320;
 
 USE CS3320;
