@@ -1,19 +1,22 @@
-> Project description:  This web-application allows the user to add/remove/edit
+# Project description
+This web-application allows the user to add/remove/edit
 clients for a fictional fuel company, request/remove quotes for fuel delivery,
 and view the data stored for clients and quotes. The packages used in this
 project are stored in "package-lock.json"
 
-> How-to-use: To use the app, in the command line navigate to the directory in
+# Prerequisites
+
+# Instructions
+To use the app, in the command line navigate to the directory in
 which the file "app.js" lives and use the following command:
 
-   | *\homework4_crudApp $ node app.js
+  node app.js
 
 Once input, the app will log if the database connection has been established and
 what port the server is running on.
 
-> Database information:
-
-To configure WHERE the database for this project lives, in "app.js" the
+# Database information:
+To configure where the database for this project lives, in "app.js" the
 following code must be altered:
    |const db = mysql.createConnection ({
    |    host: 'localhost',
